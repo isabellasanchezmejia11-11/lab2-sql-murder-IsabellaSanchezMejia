@@ -39,7 +39,7 @@ city = "SQL City" AND type= "murder"
 
 Después de ejecutar la consulta, obtuve información sobre dos posibles testigos relacionados con el caso. El primer testigo vive en la última casa de Northwestern Dr. El segundo testigo es una mujer llamada Annabel, quien reside en algún lugar de Franklin Ave.
 
-![Reporte](evidencia/Paso1_reporte.png)
+![Descripción de la captura o pista](evidencia/Paso1_reporte.png)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 ###Primer testigo
 
