@@ -9,9 +9,6 @@
   <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&fontSize=70&fontColor=FFFFFF&color=87CEEB" />
 </div>
 
-<p align='center'>
-<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=25&center=true&vCenter=true&width=433&height=75&lines=Laboratorio 2;">
-</p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 ##Datos
@@ -20,13 +17,13 @@
 * **Correo:** isabella.smejia@udea.edu.co
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-##Resumen del caso
+## Resumen del caso
 
 El 15 de enero de 2018, en SQL City, ocurrió un asesinato que quedó registrado en la base de datos del departamento de policía. A partir de los reportes del crimen, las entrevistas a testigos y la información almacenada en diferentes tablas de la base de datos. La investigación permitió determinar que el asesino fue Jeremy Bowers. Sin embargo, a partir de su declaración también se descubrió que él no actuó por iniciativa propia, sino que fue contratado por Miranda Priestly, quien resultó ser la autora intelectual detrás del crimen.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 ## Bitácora de investigación
 
-###Reporte del crimen
+### Reporte del crimen
 
 Para resolver este caso, partí de la información inicial que ya se conoce: la fecha del crimen, el 15 de enero de 2018, y la ciudad donde ocurrió, SQL City. Con estos datos iniciales, realicé una búsqueda en la base de datos para encontrar el reporte correspondiente a la escena del crimen.
 
@@ -41,7 +38,7 @@ Después de ejecutar la consulta, obtuve información sobre dos posibles testigo
 
 ![Descripción de la captura o pista](evidencia/Paso1_reporte.png)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-###Primer testigo
+### Primer testigo
 
 Teniendo en cuenta al primer testigo, la única información disponible es que vive en la última casa de Northwestern Dr. A partir de esta pista, realicé una consulta en la que ordené los registros de las direcciones de esa calle en orden descendente, con el fin de identificar la casa con el número más alto (correspondiente a la última casa)
 
@@ -56,7 +53,7 @@ LIMIT 1;
 
 ![Rastreo Testigo 1](evidencia/Paso2_RastreoTestigo1.png)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-###Segundo testigo
+### Segundo testigo
 
 Para el segundo testigo, contaba con información sobre su nombre y la calle donde vive. Con estos datos, realicé una consulta filtrando los registros por el nombre Annabel y por la calle Franklin Ave. 
 
@@ -85,7 +82,7 @@ Con esta nueva información, obtuve más pistas a partir de sus testimonios, lo 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 ###Siguiendo pistas de las entrevistas
 
-####Pista 1
+#### Pista 1
 
 La primera pista se obtiene a partir de la declaración de Morty, quien afirmó haber visto a un hombre salir corriendo del lugar con un bolso del gimnasio Get Fit Now Gym. Según su testimonio, únicamente los miembros con estatus gold reciben ese tipo de bolso.
 
@@ -99,7 +96,7 @@ Los resultados de esta consulta mostraron dos posibles sospechosos que cumplen c
 
 ![Pista 1 Entrevista](evidencia/Paso5_Pista1_Entrevista.png)
 
-####Pista 2
+#### Pista 2
 
 Además de la información anterior, en la declaración también se mencionaba que el sospechoso huyó en un automóvil cuya placa contenía la secuencia H42W. Con esta nueva pista, realicé una búsqueda en la tabla de licencias de conducir para identificar a las personas cuyo vehículo tuviera una placa que coincidiera con esa secuencia.
 
@@ -113,7 +110,7 @@ WHERE plate_number LIKE "%H42W%";
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 ###Siguiendo al sospechoso
 
-####Prueba 1
+#### Prueba 1
 
 Con base en la información recolectada anteriormente, ya se sabía que el sospechoso era un hombre. Por esta razón, descarté a las dos mujeres que aparecían en los resultados y me quedé únicamente con el sospechoso restante, quien posee el identificador de licencia de conducción 423327.
 
@@ -125,7 +122,7 @@ A partir de este dato, realicé una búsqueda utilizando ese identificador en la
 
 ![Pista 1 Sospechoso](evidencia/Paso7_Pista1_Sospechoso.png)
 
-####Prueba 2
+#### Prueba 2
 
 Hasta este momento tenía un sospechoso principal, por lo que necesitaba obtener otra prueba que confirmara si realmente había estado involucrado en el crimen. Para ello, retomé uno de los testimonios, en el cual se mencionaba que el asesino tenía un estatus gold en el gimnasio Get Fit Now Gym.
 
@@ -155,7 +152,7 @@ En efecto, el asesino es Jeremy Bowers.
 ---
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
-###Hay una parte 2
+### Hay una parte 2
 
 Ahora me falta llegar al asesino intelectual, quien es el verdadero villano detrás de este crimen.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
@@ -179,7 +176,7 @@ SELECT * FROM interview WHERE person_id = 67318
 
 - Asistió al concierto SQL Symphony Concert tres veces durante diciembre de 2017.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-###Encontrando al asesino intelectual
+### Encontrando al asesino intelectual
 
 Con las pistas obtenidas anteriormente, decidí realizar una consulta que combinara toda la información disponible para identificar a la persona que cumpliera con todas las características mencionadas en la declaración. Para ello, utilicé las tablas drivers_license, person e income, las cuales uní mediante operaciones JOIN con el fin de relacionar la información de la licencia de conducción, los datos personales y los ingresos de cada individuo.
 
