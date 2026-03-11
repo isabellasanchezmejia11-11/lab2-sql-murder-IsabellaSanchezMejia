@@ -108,7 +108,7 @@ WHERE plate_number LIKE "%H42W%";
 ![Pista 2 Entrevista](evidencia/Paso6_Pista2_Entrevista.png)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-###Siguiendo al sospechoso
+### Siguiendo al sospechoso
 
 #### Prueba 1
 
@@ -156,7 +156,7 @@ En efecto, el asesino es Jeremy Bowers.
 
 Ahora me falta llegar al asesino intelectual, quien es el verdadero villano detrás de este crimen.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-###Entrevistando al asesino
+### Entrevistando al asesino
 
 Para conocer más detalles sobre los hechos, consulté la tabla interview con el fin de obtener la declaración del sospechoso. Para ello, realicé una búsqueda utilizando su identificador correspondiente, lo que me permitió acceder a su testimonio y analizar la información proporcionada para continuar con la investigación
 
