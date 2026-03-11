@@ -80,7 +80,7 @@ Con esta nueva información, obtuve más pistas a partir de sus testimonios, lo 
 
 ![Testimonios](evidencia/Paso4_Testimonios.png)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-###Siguiendo pistas de las entrevistas
+### Siguiendo pistas de las entrevistas
 
 #### Pista 1
 
@@ -137,7 +137,7 @@ Los resultados de la consulta confirmaron que este individuo posee un estatus go
 
 ![Pista 2 Sospechoso](evidencia/Paso8_Pista2_Sospechoso.png)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-###¡Encontré al asesino!
+### ¡Encontré al asesino!
 
 Con esta información, decidí verificar si mi hipótesis era correcta y confirmar si esta persona era realmente la responsable del crimen.
 
