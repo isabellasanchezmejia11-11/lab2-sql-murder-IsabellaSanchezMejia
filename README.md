@@ -1,9 +1,4 @@
-# lab2-sql-murder-IsabellaSanchezMejia
-
-
-
-
-
+# SQL Murder Mystery – Reporte de Investigación
 
 <div>
   <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&fontSize=70&fontColor=FFFFFF&color=87CEEB" />
